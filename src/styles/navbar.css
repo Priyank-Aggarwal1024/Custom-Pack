@@ -1,0 +1,134 @@
+.ctm-pack-navbar {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    height: 100px;
+    flex-shrink: 0;
+    padding: 20px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ctm-pack-logo-small {
+    display: none;
+}
+
+.ctm-pack-nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.ctm-pack-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding-right: 100px;
+}
+
+.ctm-pack-nav-left {
+    padding-left: 100px;
+}
+
+.ctm-pack-nav-login-btn {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 19.76px */
+    background: var(--Linear, linear-gradient(90deg, #800080 3.92%, #B466C1 52.78%, #800080 92.42%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    padding: 14px 39px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7.998px;
+    border: 1px solid var(--Linear, #800080);
+    box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ctm-pack-nav-signup-btn {
+    display: flex;
+    padding: 14px 41px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7.998px;
+    background: var(--800080, rgba(128, 0, 128, 0.87));
+    box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+    color: var(--Color-2, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+}
+
+@media (width<1180px) {
+    .ctm-pack-nav-btn {
+        padding-right: 32px;
+    }
+
+    .ctm-pack-nav-left {
+        padding-left: 32px;
+    }
+}
+
+@media (width<980px) {
+    .ctm-pack-nav-btn {
+        padding-right: 16px;
+    }
+
+    .ctm-pack-nav-left {
+        padding-left: 16px;
+    }
+
+    .ctm-pack-nav-list {
+        display: none;
+    }
+}
+
+@media (width<780px) {
+    .ctm-pack-nav-btn {
+        padding: 0;
+    }
+
+    .ctm-pack-nav-left {
+        padding-left: 0px;
+    }
+
+    .ctm-pack-nav-login-btn {
+        font-size: 12px;
+        padding: 8.5px 27px;
+    }
+
+    .ctm-pack-nav-signup-btn {
+        font-size: 12px;
+        padding: 8.5px 20px;
+    }
+
+    .ctm-pack-navbar {
+        height: 72px;
+    }
+
+    .ctm-pack-logo-large {
+        display: none;
+    }
+
+    .ctm-pack-logo-small {
+        display: inline;
+    }
+}
+
+@media (width<355px) {
+
+    .ctm-pack-nav-login-btn,
+    .ctm-pack-nav-signup-btn {
+        padding: 8.5px 12px;
+    }
+}

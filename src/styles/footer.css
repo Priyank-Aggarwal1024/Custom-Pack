@@ -1,0 +1,119 @@
+section.ctm-pack-section-footer {
+    padding: 64px 24px;
+    padding-bottom: 24px;
+}
+
+.ctm-pack-footer {
+    border-radius: 21px;
+    background: #350B35;
+    width: 100%;
+    padding: 48px 20px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 34px;
+    /* justify-content: space-between; */
+    /* grid-template-rows: auto; */
+}
+
+.ctm-pack-footer-sec2 .ctm-pack-footer-sec-links {
+    display: flex;
+    align-items: center;
+    gap: 7.911px;
+}
+
+.ctm-pack-footer>div {
+    /* min-width: 150px; */
+    margin-right: auto;
+}
+
+.ctm-pack-section-footer {
+    padding: 64px 32px;
+}
+
+.ctm-pack-footer-sec-heading {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ctm-pack-footer-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ctm-pack-footer-email,
+.ctm-pack-footer-phone {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.ctm-pack-footer-email {
+    margin-bottom: 16px;
+}
+
+.ctm-pack-footer-sec1 .ctm-pack-footer-sec-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.ctm-pack-footer-address {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ctm-pack-footer-sec1 a {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+@media (max-width: 780px) {
+    section.ctm-pack-section-footer {
+        padding: 64px 24px;
+    }
+}
+
+@media (max-width: 580px) {
+    section.ctm-pack-section-footer {
+        padding: 32px 16px;
+    }
+
+    .ctm-pack-footer {
+        padding: 48px 15px;
+    }
+
+    .ctm-pack-footer-sec-links {
+        opacity: .8;
+    }
+}
+
+@media (max-width: 480px) {
+    section.ctm-pack-section-footer {
+        padding: 32px 8px;
+    }
+
+    .ctm-pack-footer {
+        padding: 48px 10px;
+    }
+}

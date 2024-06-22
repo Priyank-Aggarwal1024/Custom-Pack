@@ -1,0 +1,265 @@
+.ctm-pack-backoffer.ctm-pack-section {
+    height: 100%;
+    /* padding: 56px 64px; */
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 0 29px;
+    border-radius: 21px;
+    background: var(--Eminence-950, #450D45);
+}
+
+.ctm-pack-back-offer-heading {
+    line-height: 1.2;
+}
+
+.ctm-pack-backoffer-bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.ctm-pack-text-white {
+    color: white;
+}
+
+.ctm-pack-text-center {
+    text-align: center;
+}
+
+.ctm-pack-backoffer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 550px;
+    justify-self: center;
+    margin-left: 50px;
+}
+
+.ctm-pack-bol-card {
+    border-radius: 11.936px;
+    background: var(--Linear, linear-gradient(100deg, #B1B1B1 0.89%, #BDBDBD 9.58%, #EBE6E6 26.9%, #FFF 44.84%, #F0F0F0 64.21%, #CBCBCB 84.67%, #BEBEBE 102.86%));
+    max-width: 503px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 24px 20px;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 65px;
+}
+
+.ctm-pack-bol-card-heading {
+    color: var(--800080, rgba(128, 0, 128, 0.87));
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+}
+
+.ctm-pack-bol-card-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 300px;
+}
+
+.ctm-pack-bol-card-right {
+    color: var(--800080, rgba(128, 0, 128, 0.87));
+    font-family: Poppins;
+    font-size: 77.617px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+    opacity: 0.4;
+    margin-top: auto;
+    height: 100%;
+    position: relative;
+    bottom: -20px;
+}
+
+.ctm-pack-bol-card-left {
+    display: flex;
+    width: 103.442px;
+    height: 103.442px;
+    padding: 20.96px 21.022px 20.961px 21.021px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 104.436px;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.ctm-pack-backoffer-right {
+    max-width: 517px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ctm-pack-bor-bottom {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ctm-pack-bor-top>img {
+    width: 100%;
+}
+
+.ctm-pack-refund-right-para {
+    color: var(--Color-2, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ctm-pack-bol-small-screen {
+    display: none;
+}
+
+.ctm-pack-refund-small-screen {
+    display: none;
+}
+
+@media (width < 980px) {
+    .ctm-pack-backoffer.ctm-pack-section {
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .ctm-pack-backoffer-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .ctm-pack-refund-small-screen {
+        display: flex;
+    }
+
+    .ctm-pack-backoffer-right {
+        gap: 35px;
+    }
+}
+
+@media (width < 780px) {
+    .ctm-pack-text-center {
+        text-align: left;
+    }
+
+    .ctm-pack-f-48 {
+        font-size: 39px;
+    }
+
+    .ctm-pack-bol-card-heading {
+        font-size: 25px;
+    }
+
+    .ctm-pack-bol-card-text {
+        font-size: 18px;
+    }
+
+    .ctm-pack-bol-card-right {
+        font-size: 60px;
+    }
+
+    .ctm-pack-backoffer {
+        padding: 56px 32px;
+    }
+}
+
+@media (width < 580px) {
+    svg.ctm-pack-va-mid {
+        width: 21.386px;
+        height: 12.221px;
+    }
+
+    .ctm-pack-bol-small-screen {
+        display: block;
+    }
+
+    .ctm-pack-bol-large-screen {
+        display: none;
+    }
+
+    .ctm-pack-backoffer-left {
+        margin-left: 35px;
+    }
+
+    .ctm-pack-refund-right-para {
+        font-size: 20px;
+    }
+
+    .ctm-pack-f-48 {
+        font-size: 30px;
+    }
+
+    .ctm-pack-bor-bottom {
+        gap: 7px;
+    }
+
+    .ctm-pack-bol-card-left {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ctm-pack-bol-card-left>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ctm-pack-bol-card {
+        padding: 16px 12px 16px 40px;
+    }
+
+    .ctm-pack-bol-card-left {
+        left: -35px;
+    }
+
+    .ctm-pack-backoffer-right {
+        padding: 10px;
+    }
+
+    .ctm-pack-backoffer-right-inner {
+        padding: 20px;
+    }
+
+    .ctm-pack-bol-card-text {
+        font-size: 16px;
+    }
+
+    .ctm-pack-bol-card-heading {
+        font-size: 20px;
+    }
+
+    .ctm-pack-bol-card-right {
+        font-size: 50px;
+        bottom: -10px;
+    }
+
+    .ctm-pack-backoffer {
+        padding: 56px 16px;
+    }
+}
+
+@media (width < 480px) {
+    .ctm-pack-refund-right-para {
+        font-size: 16px;
+    }
+}

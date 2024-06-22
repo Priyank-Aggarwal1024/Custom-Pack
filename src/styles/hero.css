@@ -1,0 +1,231 @@
+.ctm-pack-hero-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.ctm-pack-hero-section {
+    position: relative;
+    padding-top: 24px;
+}
+
+.ctm-pack-hero-design {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: -1;
+    /* transform: rotate(-68.304deg); */
+    flex-shrink: 0;
+    height: 500px;
+    width: 500px;
+}
+
+.ctm-pack-hero-heading {
+    line-height: 1.2;
+}
+
+.ctm-pack-hero-top-para {
+    max-width: 351px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.ctm-pack-ht-left {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ctm-pack-htl-bottom {
+    margin-top: 54px;
+}
+
+.ctm-pack-hero-top {
+    margin-bottom: 50px;
+}
+
+.ctm-pack-hero-middle {
+    border-radius: 21px;
+    border: 1px solid #800080;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 30px auto 45px auto;
+    padding: 19px 36px;
+    width: fit-content;
+}
+
+
+.ctm-pack-hero-card-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.ctm-pack-select-course-btn {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.477px;
+    background: #800080;
+    box-shadow: 0px 4px 8.9px 0px rgba(0, 0, 0, 0.25);
+    color: var(--Color-2, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 22.23px */
+}
+
+
+.ctm-pack-proceed {
+    border-radius: 7.998px;
+    background: #800080;
+    box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px 38px;
+}
+
+.ctm-pack-htl-bottom-left {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.ctm-pack-enroll-now {
+    display: flex;
+    padding: 20px 49px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7.998px;
+    background: #800080;
+    color: var(--Color-2, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 22.23px */
+    box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ctm-pack-ht-left {
+    width: 100%;
+}
+
+.ctm-pack-ht-right>img {
+    width: 100%;
+}
+
+.ctm-pack-hero-ocb-middle-horizontal {
+    display: flex;
+    align-items: center;
+    gap: 9.63px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    margin-top: 11px;
+}
+
+.ctm-pack-hero-more-course {
+    color: #800080;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    display: flex;
+    height: 46px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 0, 128, 0.20);
+    background: var(--Eminence-50, #FCF5FE);
+    width: fit-content;
+    margin-top: 24px;
+}
+
+@media (width<1280px) {}
+
+
+@media (width<980px) {
+    .ctm-pack-hero-top {
+        grid-template-rows: fit-content fit-content;
+        grid-template-columns: 1fr;
+    }
+
+    .ctm-pack-ht-left {
+        margin: 0;
+        grid-row: 2/3;
+    }
+}
+
+@media (width<780px) {}
+
+@media (width<580px) {
+    .ctm-pack-hero-middle {
+        display: none;
+    }
+
+    .ctm-pack-hero-more-course,
+    .ctm-pack-hero-ocb-middle-horizontal {
+        font-size: 18px;
+    }
+
+    .ctm-pack-hero-design {
+        height: 300px;
+        width: 500px;
+    }
+
+    .ctm-pack-select-course-btn {
+        font-size: 16px;
+    }
+
+    .ctm-pack-hero-bottom {
+        margin-top: 40px;
+    }
+
+
+}
+
+@media (width<480px) {
+
+
+
+    .ctm-pack-hero-more-course,
+    .ctm-pack-hero-ocb-middle-horizontal {
+        font-size: 16px;
+    }
+
+
+    .ctm-pack-enroll-now {
+        padding: 20px;
+    }
+
+    .ctm-pack-htl-bottom-left {
+        gap: 25px;
+    }
+
+}
+
+@media (width<360px) {
+    section.ctm-pack-hero-section {
+        padding: 48px 9px;
+    }
+
+    .ctm-pack-hero-heading {
+        font-size: 32px;
+    }
+}

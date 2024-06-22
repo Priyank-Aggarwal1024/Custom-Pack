@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-style: normal;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (width<1280px) {}
+
+
+@media (width<980px) {}
+
+@media (width<780px) {}
+
+@media (width<580px) {}
+
+@media (width<480px) {}
